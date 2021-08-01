@@ -3,7 +3,7 @@
 <suite name="SeleniumTest" verbose="1" >
   <test name="Testcycle1" >
     <classes>
-      <class name="com.qa.testScripts.DemotestTest"/>
+      <class name="com.qa.testScripts.TestCase1"/>
     </classes>
   </test>
  
