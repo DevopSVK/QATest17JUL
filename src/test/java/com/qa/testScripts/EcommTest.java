@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.Keys;
+import org.testng.annotations.Test;
 import java.util.*;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -41,6 +42,7 @@ public class EcommTest {
   public void ecomm() {
     driver.get("http://172.31.37.152:8181/");
     driver.manage().window().setSize(new Dimension(1550, 838));
+    Thread.sleep(2000);
     driver.findElement(By.cssSelector(".hero-content > .btn")).click();
     driver.findElement(By.linkText("Shop")).click();
     driver.findElement(By.linkText("Dresses")).click();
