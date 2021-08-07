@@ -40,7 +40,7 @@ public class MytestTest {
   }
   @Test
   public void mytest() {
-    driver.get("http://18.218.81.71:8181/index.html");
+    driver.get("http://172.31.4.49:8181/index.html");
     driver.manage().window().setSize(new Dimension(1550, 838));
     driver.findElement(By.linkText("Shop")).click();
     driver.findElement(By.cssSelector(".hero-content > .btn")).click();
