@@ -47,5 +47,5 @@ public class FinalTest {
     driver.findElement(By.linkText("Dresses")).click();
     driver.findElement(By.cssSelector(".col-12:nth-child(2) > .single-product-wrapper .btn")).click();
   }
-   driver.close();
+   
 }
